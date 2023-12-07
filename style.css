@@ -1,0 +1,129 @@
+*{
+    margin-top: 0;
+}
+.primary_nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65px;
+    width: 100%;
+    background-color:lavender;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    border-top-left-radius:  10px;
+    padding-top: 15px;
+}
+.primary_nav img{
+    height: 50px;
+    width:10%;
+    /* aspect-ratio: 15/6; */
+   
+}
+.search-bar{
+    width: 600px;
+    position: relative;
+    left: 129px;
+}
+.nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 30%;
+    padding-left: 200px;
+}
+.primary-h6{
+    color:rgb(0, 0, 0);
+}
+.primary-text{
+    color: rgb(0, 0, 0);
+}
+.nav-text p{
+    line-height: 0px;
+    color: rgb(0, 0, 0);
+}
+.nav_loc{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0) ;
+
+}
+.nav_loc svg{
+    text-decoration: none;
+    margin-bottom: 10px;
+    height: 100px;
+}
+.cart{
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+.profile{
+    padding-bottom: 20px;
+
+    color: rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+.carousel-inner img{
+    height: 500px;
+     width:100% ;       
+     -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
+     color-stop(0.00,  rgba(0,0,0,0)),
+     color-stop(1.00,  rgba(0,0,0,1)));
+}
+.section img{
+    position: relative;
+    height: 390px;
+    width: 390px;
+    position: relative;
+    left: 150px;
+    
+}
+.section img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out
+}
+
+.bleh img{
+    /* padding-left: 20px; */
+    position: relative;
+    height: 170px;
+    width: 390px;
+    /* /* position: relative; */
+    left: 170px;
+    border-radius: 99px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.bleh img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out
+}
+.default img{
+    width: 100%;
+}
+.jwe img{
+    position: relative;
+    height: 390px;
+    width: 390px;
+    position: relative;
+    left: 340px;
+    border-radius: 20px;
+    
+}
+.jwe img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out
+}
+.mmain{
+    background-color: rgb(84, 75, 129);
+}
+.mmain h3{
+    display: flex;
+    justify-content: center;
+}
+.mmain p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
